@@ -1,0 +1,4 @@
+(fp_lib_table
+  (lib (name GYB27000)(type KiCad)(uri ${KIPRJMOD}/GYB27000.pretty)(options "")(descr ""))
+  (lib (name 5413558-1)(type KiCad)(uri ${KIPRJMOD}/5413558-1.pretty)(options "")(descr ""))
+)
