@@ -12,9 +12,6 @@ motherboard, but it has an additional header, J2, on top to receive the VI
 signal.  I use a one-pin ribbon cable to connect the PAL coder to the VI signal
 on the video connector at the back of the motherboard.
 
-There's also a one-pin header, J3, on top for the VNY signal from the
-motherboard.
-
 The output PAL signal is passed through to the motherboard and also to an
 optional BNC connector on the PAL board itself.
 
@@ -23,12 +20,12 @@ version passes HB instead of NHB (because NHB is not on the PAL coder
 connector) into the PROM, and the PROM contents must be different in order to
 accomodate this.
 
-This revision should otherwise be an accurate reproduction of YO3GHM's circuit.
+Also, this revision uses the VCR signal from the motherboard instead of VNY.
 
-## Bodges
+NOTE: This revision has not been tested yet.  It includes some simple fixes for
+problems in the [previous revision][5211970], which is known to work.
 
-* The emitter and the collector of transistor T1 are swapped.
-* There is a missing trace connecting pin 1 of C4 to pin 14 of U2.
+[5211970]: https://github.com/tsowell/cobra-palcoder-21/tree/5211970
 
 ## Images
 
@@ -39,4 +36,4 @@ This revision should otherwise be an accurate reproduction of YO3GHM's circuit.
 <img src="/images/photo.jpg" width="40%" height="40%"/>
 </p>
 
-The photograph includes some modifications I made.
+The photograph is from the last revision with bodges.

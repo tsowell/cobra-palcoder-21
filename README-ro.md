@@ -10,9 +10,6 @@ placa de bază, dar are un header suplimentar, J2, deasupra să primească signa
 semnal VI.  Folosec un cablu panglică cu un singur pin să-l contectez la semnal
 VI pe conectorul PAL video în spatele plăcii.
 
-De asemenea, există un header cu un pin, J3, deasupra pentru primirea
-semnalului VNY din placa de bază.
-
 Samnal de ieșire PAL trece prin la placa de bază și de asemenea un conector
 opțional BNC pe placa de circuit PAL.
 
@@ -23,10 +20,12 @@ schimbe pentru acest.
 Altfel, această revizuire ar trebuie să fi o reproducere corectă a circuitului
 lui YO3GHM.
 
-## Probleme
+De asemnea, această revizuire folosește semnal VCR în loc de semnal VNY.
 
-* Emitorul și colectorul tranzistorului T1 sunt invers.
-* Lipsește un traseu între pin 1 de C4 și pin 14 de U2.
+NOTĂ: Încă această revizuire nu a fost testat.  Include niște remedieri pentru
+probleme în [revizuirea anterioară][5211970], care se știe că funcționa.
+
+[5211970]: https://github.com/tsowell/cobra-palcoder-21/tree/5211970
 
 ## Imagine
 
@@ -37,4 +36,4 @@ lui YO3GHM.
 <img src="/images/photo.jpg" width="40%" height="40%"/>
 </p>
 
-Fotograful include niști modifcări.
+Fotograful este din ultima revizuire cu remedieri.
